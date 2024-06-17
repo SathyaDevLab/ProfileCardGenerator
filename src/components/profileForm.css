@@ -1,0 +1,130 @@
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: url("../assets/background.png");
+    background-size: cover;
+  }
+  .container-fluid {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .userform {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(84, 84, 184, 0.9836309523809523) 0%,
+      rgba(0, 212, 255, 0) 100%
+    );
+    overflow: hidden;
+    box-shadow: 0px 0px 2px black;
+    position: relative;
+    padding: 10px 20px;
+    border: none;
+    width: 400px;
+    max-width: 500px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-space {
+    background-color: #fff;
+    position: absolute;
+    right: 260px;
+    width: 450px;
+    height: 700px;
+    border-radius: 60px;
+    rotate: 50deg;
+    z-index: 1;
+  }
+  .form-g1 {
+    background-color: #6c63ac;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    rotate: 50deg;
+    top: -250px;
+    right: -35px;
+  }
+  .form-g2 {
+    background-color: #6c63ac;
+    position: absolute;
+    width: 200px;
+    height: 600px;
+    border-radius: 20px;
+    rotate: 50deg;
+    left: 250px;
+    bottom: 50px;
+    z-index: 0;
+  }
+  .form-g3 {
+    background-color: #5b579e;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 60px;
+    rotate: 50deg;
+    bottom: -195px;
+    left: 160px;
+  }
+  .userInput {
+    background: transparent;
+    z-index: 1;
+    padding: 0px 20px;
+  }
+  .content,
+  .list {
+    margin: 5px 0px;
+    padding: 5px 0px;
+  }
+  .error {
+    font-size: 10px;
+    color: red;
+  }
+  .text {
+    border: none;
+    border-bottom: 2px solid rgba(187, 183, 183, 0.651);
+    padding: 5px 10px;
+    background: none;
+    padding: 5px 10px;
+    width: 100%;
+    outline: none;
+  }
+  
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  ul li {
+    list-style: none;
+    margin: 0px 5px 0px 0px;
+  }
+  .form-check-input {
+    cursor: pointer;
+  }
+  label {
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+  
+  .addBtn {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(90deg, #4d7ce2, #6555dd, #9e99e0);
+  }
+  .addBtn:hover {
+    background: #6630e2;
+  }
